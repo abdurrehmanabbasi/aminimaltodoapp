@@ -7,7 +7,7 @@ const Item = ({ id, title, time, done, removeTodo, setDone }) => {
 
       <p className={`p-2  w-1/3 ${done?"line-through":""}`}>{time}</p>
       <button
-        className="p-2 bg-red-400 text-white deletebtn"
+        className="p-2 bg-red-500 text-white deletebtn"
         onClick={() => removeTodo(id)}
       >
       </button>
