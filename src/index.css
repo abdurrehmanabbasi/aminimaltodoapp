@@ -4,5 +4,4 @@
 
 .deletebtn::after{
     content: '\2717';
-    color: #333;
 }
